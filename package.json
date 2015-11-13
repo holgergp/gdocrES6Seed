@@ -1,0 +1,35 @@
+{
+  "name": "es6seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "browserify-shim": "~3.8.0",
+    "brfs": "^1.4.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-jasmine": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "browserify-shim": {
+    "external": "global:External"
+  },
+  "devDependencies": {
+    "karma-browserify": "^4.4.0",
+    "run-sequence": "^1.1.4"
+  }
+}
