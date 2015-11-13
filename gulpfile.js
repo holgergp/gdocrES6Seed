@@ -43,7 +43,7 @@ gulp.task('babelAndTest', function (callback) { // (A)
 
 gulp.task('watch', function (callback) { // (D)
     gulp.watch(paths.es6,
-        ['babel']);
+        ['babelAndTest']);
 });
 
 gulp.task('default', ['watch']); // (E)
