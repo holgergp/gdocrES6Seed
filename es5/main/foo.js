@@ -23,6 +23,5 @@ var Foo = (function () {
     return Foo;
 })();
 
-;
 exports.default = Foo;
 //# sourceMappingURL=foo.js.map
